@@ -10,7 +10,7 @@
                     <div class="sidebar-info-contents">
                         <div class="content-inner">
                             <div class="logo">
-                                <a href="{{ route('index') }}"><img src="{{ asset('assets/images/resources/logo-1.png') }}" alt="" /></a>
+                                <a href="{{ url('/index2') }}"><img src="{{ asset('assets/images/resources/logo-1.png') }}" alt="" /></a>
                             </div>
                             <div class="content-box">
                                 <h4>About Us</h4>

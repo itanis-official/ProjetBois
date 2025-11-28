@@ -1,4 +1,7 @@
 {{-- resources/views/admin/dashboard.blade.php --}}
+@extends('layouts.app')
+@section('title', 'Dashboard Admin')
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -89,3 +92,4 @@
     </main>
 </body>
 </html>
+@endsection

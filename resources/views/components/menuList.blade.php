@@ -16,10 +16,9 @@
         ])) current @endif">
         <a href="{{ route('index') }}">Home </a>
         <ul>
-            <li><a href="{{ route('index') }}">Home One</a></li>
+
             <li><a href="{{ route('index2') }}">Home Two</a></li>
-            <li><a href="{{ route('index3') }}">Home Three</a></li>
-            <li><a href="{{ route('index4') }}">Home Four</a></li>
+
             <li class="dropdown @if (request()->is([
                     'index',
                     'index',
@@ -37,10 +36,7 @@
                 ])) current @endif">
                 <a href="#">Header Styles</a>
                 <ul>
-                    <li><a href="{{ route('index') }}">Header One</a></li>
                     <li><a href="{{ route('index2') }}">Header Two</a></li>
-                    <li><a href="{{ route('index3') }}">Header Three</a></li>
-                    <li><a href="{{ route('index4') }}">Header Four</a></li>
                 </ul>
             </li>
             <li class="dropdown @if (request()->is([
@@ -60,18 +56,16 @@
                 ])) current @endif">
                 <a href="#">One Page Styles</a>
                 <ul>
-                    <li><a href="{{ route('index-one-page') }}">One Page Styles One</a></li>
+
                     <li><a href="{{ route('index2-one-page') }}">One Page Styles Two</a></li>
-                    <li><a href="{{ route('index3-one-page') }}">One Page Styles Three</a>
-                    </li>
-                    <li><a href="{{ route('index4-one-page') }}">One Page Styles Four</a>
+
                     </li>
                 </ul>
             </li>
         </ul>
     </li>
     <li @if (request()->is(['about'])) class="current" @endif>
-        <a href="{{ route('about') }}">About Us</a>
+        <a href="{{ route('about') }}">test</a>
     </li>
     <li class="dropdown @if (request()->is(['team', 'team-details', 'testimonials', 'faq', '404', 'coming-soon'])) current @endif">
         <a href="#">Pages</a>
@@ -115,7 +109,7 @@
         </ul>
     </li>
     <li class="dropdown @if (request()->is(['blog', 'blog-2', 'blog-details'])) current @endif">
-        <a href="#">Blog</a>
+        <a href="#">Nos Partenaire</a>
         <ul>
             <li><a href="{{ route('blog') }}">Blog</a></li>
             <li><a href="{{ route('blog-2') }}">Blog Style2</a></li>

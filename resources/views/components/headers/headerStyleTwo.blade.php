@@ -5,7 +5,8 @@
                     <div class="main-menu-two__wrapper-inner">
                         <div class="main-menu-two__left">
                             <div class="main-menu-two__logo">
-                                <a href="{{ route('index') }}">
+                              <a href="{{ url('/index2') }}">
+
                                     <img src="{{ asset('assets/images/resources/logo-1.png') }}" alt="">
                                 </a>
                             </div>
